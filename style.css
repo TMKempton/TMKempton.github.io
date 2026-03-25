@@ -246,6 +246,10 @@ a:hover {
   gap: 1rem;
 }
 
+.section-link-row {
+  margin: 1.5rem 0 0;
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--border);

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tom Kempton | AI Research</title>
+  <meta name="description" content="AI research papers and projects by Tom Kempton, with a focus on deepfake detection and machine-generated text.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header site-header-compact">
+    <div class="container">
+      <nav class="site-nav" aria-label="Primary">
+        <a class="wordmark" href="index.html">Tom Kempton</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="ai-research.html" aria-current="page">AI Research</a>
+          <a href="publications.htm">Mathematics Publications</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <div class="section-heading">
+        <p class="eyebrow">AI Research</p>
+        <h1>Deepfake detection, statistical text analysis, and LLM decoding</h1>
+        <p>
+          My recent AI work has focused on deepfake detection, especially the detection of AI-generated text, together with
+          the statistical and thermodynamic structure underlying decoding in large language models.
+        </p>
+      </div>
+
+      <div class="stack">
+        <article class="card publication-item">
+          <p class="card-label">ICLR 2026</p>
+          <h2><a href="https://openreview.net/forum?id=SPElkPRurl">DMAP: A Distribution Map for Text</a></h2>
+          <p>With Julia Rozanova, Parameswaran Kamalaruban, Maeve Madigan, Karolina Wresilo, Yoann Launay, David Sutton, and Stuart Burrell.</p>
+          <p>
+            Introduces DMAP, a mathematically grounded way to map text to samples in the unit interval that jointly encode
+            rank and probability information, enabling model-agnostic statistical analysis of text.
+          </p>
+        </article>
+
+        <article class="card publication-item">
+          <p class="card-label">AISTATS 2025</p>
+          <h2><a href="https://proceedings.mlr.press/v258/kempton25a.html">TempTest: Local Normalization Distortion and the Detection of Machine-generated Text</a></h2>
+          <p>With S. Burrell and C. Cheverall. Proceedings of the 28th International Conference on Artificial Intelligence and Statistics, 2025.</p>
+          <p>
+            Introduces a detector for machine-generated text based on local normalization distortion, aiming to remain
+            effective across models and under both white-box and black-box assumptions.
+          </p>
+        </article>
+
+        <article class="card publication-item">
+          <p class="card-label">Findings of ACL: EMNLP 2025</p>
+          <h2><a href="https://aclanthology.org/2025.findings-emnlp.1210/">Local Normalization Distortion and the Thermodynamic Formalism of Decoding Strategies for Large Language Models</a></h2>
+          <p>With S. Burrell. Findings of the Association for Computational Linguistics: EMNLP 2025.</p>
+          <p>
+            Develops a theoretical description of top-k, nucleus, and temperature-based decoding in the language of
+            equilibrium states, and analyzes how local normalization affects quality, diversity, and detection.
+          </p>
+        </article>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
