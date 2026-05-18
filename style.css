@@ -241,6 +241,10 @@ a:hover {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.featured-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .stack {
   display: grid;
   gap: 1rem;
